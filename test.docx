@@ -1,0 +1,1127 @@
+
+API Name: 
+Schedule
+API description : 
+This API provide present and future schedule.
+Resource URL : 
+http://ceedemo.xyz/service/schedule/get?community_id=4&range_start=2019-07-01&range_end=2019-07-25
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • Community_id
+    • range_start
+    • range_end
+    • Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter :
+    • community_id=4
+    • range_start=2019-07-01
+    • range_end=2019-07-25
+Sample Response : 
+{
+    "status": 200,
+    "schedules": [
+        {
+            "sch_id": 245,
+            "sch_date": "2019-06-29",
+            "sch_price": "100.00",
+            "location_name": "image test",
+            "sch_capacity": 3,
+            "registrations_count": 0
+        },
+        {
+            "sch_id": 246,
+            "sch_date": "2019-07-01",
+            "sch_price": "10.00",
+            "location_name": "Shamoly",
+            "sch_capacity": 3,
+            "registrations_count": 1
+        },
+        {
+            "sch_id": 963,
+            "sch_date": "2019-06-30",
+            "sch_price": "420420.00",
+            "location_name": "Checkin",
+            "sch_capacity": 10,
+            "registrations_count": 1
+        },          
+    ]
+}
+Sample Error Response : 
+{
+    "status": 401,
+    "reason": "Community id required"
+}
+
+
+API Name: 
+Schedule Group
+API description : 
+This API Provide location wise Schedule.
+Resource URL : 
+http://ceedemo.xyz/service/schedule/get_group?community_id=4
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter :
+    • community_id=4
+Sample Response : 
+{
+    "status": 200,
+    "schedules": {
+        "3": {
+            "location_id": 4,
+            "location_name": "Banqut Halll",
+            "schedules": [
+                {
+                    "sch_id": 964,
+                    "sch_date": "2019-09-30",
+                    "sch_price": "100.00",
+                    "location_name": "Banqut Halll",
+                    "sch_capacity": 10,
+                    "reg_link": "http://eestage.telaeris.com/admin/public_registration?v_id=964",
+                    "registrations_count": 1
+                }
+            ]
+        },
+        "7": {
+            "location_id": 8,
+            "location_name": "Daffodil",
+            "schedules": [
+                {
+                    "sch_id": 967,
+                    "sch_date": "2019-07-03",
+                    "sch_price": "50.00",
+                    "location_name": "Daffodil",
+                    "sch_capacity": 33,
+                    "reg_link": "http://eestage.telaeris.com/admin/public_registration?v_id=967",
+                    "registrations_count": 0
+                }
+            ]
+        }
+    }
+}
+
+Sample Error Response : 
+{
+    "status": 401,
+    "reason": "Community id required"
+}
+
+API Name: 
+Create Registration
+API description: 
+This API use to Add Couple Registration.
+Resource URL: 
+http://ceedemo.xyz/service/registration/store?community_id=4&reg_sch_id=245&reg_f_first=oashi_Api&reg_f_last=oashi_api&reg_f_age=20&reg_f_religion=Catholic&reg_f_married=no&reg_f_email=api@gmail.com&reg_f_phone=12343212&reg_m_first=tarikul_Api&reg_m_last=tarikul_Api&reg_m_age=20&reg_m_religion=Catholic&reg_m_married=no&reg_m_email=api@gmail.com&reg_m_phone=23353456443&reg_address=sukrabad_api&reg_city=city_api&reg_state=state_api&reg_zip=zip_api&reg_wedding_date=2019-06-28
+Method:
+ Post
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • reg_sch_id
+    • reg_f_first
+    • reg_f_last
+    • reg_f_age
+    • reg_f_religion
+    • reg_f_married
+    • reg_f_email
+    • reg_f_phone
+    • reg_m_first
+    • reg_m_last
+    • reg_m_age
+    • reg_m_religion
+    • reg_m_married
+    • reg_m_email
+    • reg_m_phone
+    • reg_address
+    • reg_city
+    • reg_state
+    • reg_zip
+    • reg_wedding_date
+    • yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • yes
+    • You can Get this id from “Communities” API.
+    • You can Get this id from “Schedule” API.
+
+Sample Parameter :
+    • community_id=4
+    • reg_sch_id=245
+    • reg_f_first =oashi_Api
+    • reg_f_last=oashi_api
+    • reg_f_age=20
+    • reg_f_religion=Catholic
+    • reg_f_married=no
+    • reg_f_email=api@gmail.com
+    • reg_f_phone=12343212
+    • reg_m_first=tarikul_Api
+    • reg_m_last =tarikul_Api
+    • reg_m_age=20
+    • reg_m_religion=Catholic
+    • reg_m_married=no
+    • reg_m_email=api@gmail.com
+    • reg_m_phone=23353456443
+    • reg_address=sukrabad_api
+    • reg_city=city_api
+    • reg_state=state_api
+    • reg_zip=zip_api
+    • reg_wedding_date=2019-06-28
+Sample Response: 
+{
+    "status": 200,
+    "reason": "Successfully registered",
+    "reg_id": 14802,
+    "community_id": "4"
+}
+Sample Error Response: 
+
+
+
+
+API Name: 
+Update Transaction
+API description: 
+This API use for Transaction Information updated.
+Resource URL: 
+http://ceedemo.xyz/service/registration/update_transaction?reg_id=14802&reg_txn_id=1U874436NX961701GGG&reg_amount=10&reg_payment_status=Completed
+Method:
+ Post
+Parameters: 
+Name
+Required
+Description
+    • reg_id
+    • reg_txn_id
+    • reg_amount
+    • reg_payment_status
+    • Yes
+    • Yes
+    • Yes
+    • yes
+
+
+Sample Parameter:
+    • reg_id=14802
+    • reg_txn_id=1U874436NX961701GGG
+    • reg_amount=10
+    • reg_payment_status=Completed
+Sample Response: 
+{
+    "status": 200,
+    "reason": "Successfully updated",
+    "data": {
+        "reg_id": 14802,
+        "location_name": "image test",
+        "sch_date": "2019-06-29",
+        "reg_date": "2019-06-28 12:35:24",
+        "reg_payment_status": "Completed",
+        "reg_payee": "tarikul_Api tarikul_Api",
+        "reg_payment_email": null,
+        "reg_amount": "10",
+        "reg_f_first": "oashi_Api",
+        "reg_f_last": "oashi_api",
+        "reg_f_age": 20,
+        "reg_f_religion": "Catholic",
+        "reg_f_married": "no",
+        "reg_f_email": "api@gmail.com",
+        "reg_f_phone": "12343212",
+        "reg_m_first": "tarikul_Api",
+        "reg_m_last": "tarikul_Api",
+        "reg_m_age": 20,
+        "reg_m_religion": "Catholic",
+        "reg_m_married": "no",
+        "reg_m_email": "api@gmail.com",
+        "reg_m_phone": "23353456443",
+        "reg_primary": null,
+        "reg_address": "sukrabad_api",
+        "reg_city": "city_api",
+        "reg_state": "state_api",
+        "reg_zip": "zip_api",
+        "reg_wedding_date": "2019-06-28",
+        "reg_parish": null,
+        "reg_priest": null,
+        "reg_ref": null,
+        "reg_comments": null,
+        "reg_scholarship_amount": null,
+        "reg_attended": null,
+        "reg_full_weekend": null,
+        "reg_partial_weekend": null,
+        "reg_no_show": null,
+        "reg_special_requests": null,
+        "reg_payment_type": "Paypal",
+        "reg_txn_id": "1U874436NX961701GGG",
+        "updated_at": "2019-06-28 12:37:38"
+    }
+}
+Sample Error Response: 
+
+
+
+
+API Name: 
+Create Scholarship Registration
+API description: 
+This API use for Add Scholarship Registration. 
+Resource URL: 
+http://ceedemo.xyz/service/scholarship/store?community_id=4&reg_sch_id=245&reg_f_first=oashi_Api2&reg_f_last=oashi_api2&reg_f_age=20&reg_f_religion=Catholic&reg_f_married=no&reg_f_email=api2@gmail.com&reg_f_phone=12343212&reg_m_first=tarikul_Api2&reg_m_last=tarikul_Api2&reg_m_age=20&reg_m_religion=Catholic&reg_m_married=no&reg_m_email=api2@gmail.com&reg_m_phone=23353456443&reg_address=sukrabad_api&reg_city=city_api&reg_state=state_api&reg_zip=zip_api&reg_wedding_date=2019-06-28&reg_couple_payment=300&reg_parish_name=parish_api&reg_priest_name=priest_api&reg_priest_email=priestapi@gmail.com&reg_priest_phone=122354354e&reg_request_reason=api_poor
+Method:
+ Post
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • reg_sch_id
+    • reg_f_first
+    • reg_f_last
+    • reg_f_age
+    • reg_f_religion
+    • reg_f_married
+    • reg_f_email
+    • reg_f_phone
+    • reg_m_first
+    • reg_m_last
+    • reg_m_age
+    • reg_m_religion
+    • reg_m_married
+    • reg_m_email
+    • reg_m_phone
+    • reg_address
+    • reg_city
+    • reg_state
+    • reg_zip
+    • reg_wedding_date
+    • reg_couple_payment
+    • reg_parish_name
+    • reg_priest_name
+    • reg_priest_email
+    • reg_priest_phone
+    • reg_request_reason
+    • yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • yes
+
+
+Sample Parameter:
+    • community_id=4
+    • reg_sch_id=245
+    • reg_f_first=oashi_Api2
+    • reg_f_last=oashi_api2
+    • reg_f_age=20
+    • reg_f_religion=Catholic
+    • reg_f_married=no
+    • reg_f_email=api2@gmail.com
+    • reg_f_phone=12343212
+    • reg_m_first=tarikul_Api2
+    • reg_m_last=tarikul_Api2
+    • reg_m_age=20
+    • reg_m_religion=Catholic
+    • reg_m_married=no
+    • reg_m_email=api2@gmail.com
+    • reg_m_phone=23353456443
+    • reg_address=sukrabad_api
+    • reg_city=city_api
+    • reg_state=state_api
+    • reg_zip=zip_api
+    • reg_wedding_date=2019-06-28
+    • reg_couple_payment=300
+    • reg_parish_name=parish_api
+    • reg_priest_name=priest_api
+    • reg_priest_email=priestapi@gmail.com
+    • reg_priest_phone=122354354e
+    • reg_request_reason=poor
+Sample Response: 
+{
+    "status": 200,
+    "reason": "Successfully saved",
+    "reg_id": 14803
+}
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "Community id required"
+}
+
+API Name: 
+Communities
+API description: 
+Show all Community
+Resource URL: 
+http://ceedemo.xyz/service/communities/get
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+
+
+
+
+Sample Parameter:
+
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "community_id": 2,
+            "system": "San Diego CEE",
+            "contact_name": "Rosin and Tim O'Neil",
+            "prefix": "sandiego",
+            "url": "http://engagedencountersd.org",
+            "contact_address": null,
+            "contact_phone": "619-729-5354",
+            "legal_business_name": null,
+            "facebook_url": "https://www.facebook.com/SDCEE",
+            "paypal_key": null,
+            "paypal_email": "sandiegoee@gmail.com",
+            "paypal_return_url": null,
+            "registration_email": "sandiegoee@gmail.com",
+            "smtp_password": "byv-JDN-abX-36T",
+            "smtp_email": "sandiegoee@gmail.com",
+            "smtp_host": "smtp.gmail.com",
+            "smtp_port": 587,
+            "smtp_secure": "tls",
+            "smtp_additional_address": null,
+            "smtp_auth": "true",
+            "financial_email": null,
+            "cancellation_days": null,
+            "cancellation_fee": null,
+            "connect_to_paypal": 1,
+            "registration_confirmation_note": null,
+            "scholarship_application_text": "<p>Dear [priest_name],</p><p><br></p><p>[groom_full_name] and [bride_full_name] are requesting a scholarship to attend the Catholic Engaged Encounter Retreat. You will be receiving another email from us with a link to approve their scholarship request. Please review their application if you agree to support their request, by following the link in the subsequent email.</p><p><br></p><p>Thank you,</p><p><br></p><p>[registration_user_name]</p><p>[community_name]</p>",
+            "scholarship_approval_text": "<p><span style=\"color: rgb(21, 27, 38); font-family: -apple-system, BlinkMacSystemFont, \" segoe=\"\" ui\",=\"\" roboto,=\"\" \"helvetica=\"\" neue\",=\"\" helvetica,=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 13px;=\"\" white-space:=\"\" pre-wrap;\"=\"\">Your scholarship has been approved for a Catholic Engaged Encounter retreat through </span>San Diego Engaged Encounter. We will soon be emailing you a link to allow you to register.</p><p><br></p><p>God Bless you,</p><p><br></p><p><i>Roisin & Tim O’Neill</i></p><div><i><br></i></div>",
+            "scholarship_approval_bride_text": "<p>Your scholarship has been approved for a Catholic Engaged Encounter retreat through [community_name]. We will soon be emailing you a link to allow to register.</p><p><br></p><p>God bless you</p><p><i><br></i></p><p><i>Roisin & Tim O’Neill</i></p>",
+            "scholarship_approval_link_text": null,
+            "developer_email": null,
+            "delete_pendings": null,
+            "created_by": null,
+            "updated_by": 125
+        },
+}
+Sample Error Response: 
+
+
+
+API Name: 
+Community by Domain
+API description: 
+Show Community by domain name
+Resource URL: 
+http://ceedemo.xyz/service/community_by_domain/get
+Method:
+ POST
+Parameters: 
+Name
+Required
+Description
+url
+Yes
+Give the domain name here
+
+Sample Parameter:
+
+Sample Response: 
+ {
+    "status": 200,
+    "reason": "Community exists",
+    "community": {
+        "community_id": 2,
+        "community_name": "San Diego CEE",
+        "paypal_url": "https://www.paypal.com/cgi-bin/webscr",
+        "paypal_email": "sandiegoee@gmail.com",
+        "domain": "engagedencountersd.org",
+        "login_url": "https://sandiego.ceeweekend.org/login"
+    }
+}
+
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "This domain is not associated with any community"
+}
+
+
+API Name: 
+Community Resources
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/community_resources/get?community_id=4
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 15,
+            "community_id": 4,
+            "title": "Image test",
+            "content": "ghjng  gjgj",
+            "resource_type": "Handout",
+            "is_public": "Yes",
+            "image": "http://ceedemo.xyz/public/image/f8b7aa3a0d349d9562b424160ad186121553505908.jpg",
+            "pdf_path": "http://ceedemo.xyz/public/image/",
+            "mime_type": "jpg"
+        },
+        {
+            "id": 19,
+            "community_id": 4,
+            "title": "Hello There!",
+            "content": "Hello there! Welcome to my new joke.",
+            "resource_type": "Joke",
+            "is_public": "Yes",
+            "image": "http://ceedemo.xyz/public/image/",
+            "pdf_path": "http://ceedemo.xyz/public/image/",
+            "mime_type": ""
+        }
+    ]
+}
+Sample Error Response: 
+
+
+
+API Name: 
+Expense Details
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/expense_descriptions/get?community_id=4
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 3,
+            "community_id": 4,
+            "name": "New exp"
+        },
+        {
+            "id": 4,
+            "community_id": 4,
+            "name": "yutututt"
+        },
+        {
+            "id": 5,
+            "community_id": 4,
+            "name": "yututut"
+        },
+        {
+            "id": 6,
+            "community_id": 4,
+            "name": "yututut"
+        },
+        {
+            "id": 7,
+            "community_id": 4,
+            "name": "Expense three"
+        },
+        {
+            "id": 14,
+            "community_id": 4,
+            "name": "Expense four"
+        }
+    ]
+}
+Sample Error Response: 
+
+
+API Name: 
+Location
+API description: 
+This API provide Each community all location.
+Resource URL: 
+http://ceedemo.xyz/service/location/get?community_id=4
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • community_id
+Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "reason": [
+        {
+            "id": 3,
+            "location_name": "BBIL Test",
+            "location_address": "3010 Southern Avenue Garden Grove",
+            "information": "<p>Congratulations on your decision to marry</p>"
+        },
+
+     "id": 7,
+            "location_name": "Banqut Hall Two",
+            "location_address": "sukrabad",
+            "information": "<p><span style=\"color: rgb(84, 84, 84); font-family: arial, sans-serif; font-size: small;\">Modern and flexible </span>Cloud <span style=\"background-color: rgb(0, 255, 0);\">Integration.</span></span></p>"
+        },
+        {
+            "id": 8,
+            "location_name": "Daffodil",
+            "location_address": "Dhaka",
+            "information": "<p>Lorem ipsome dolor site emit.&nbsp;</p>"
+        }
+    ]
+}
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "Community id required"
+}
+
+API Name: 
+Presenters
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/presenters/get?community_id=4
+Method:
+ Get
+Parameters: 
+Name
+Required
+Description
+    • community_id
+Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+
+            "family_id": 31,
+            "community_id": 4,
+            "family_name": "WP",
+            "husband_name": "John Petersen",
+            "husband_email": "test@test.com",
+            "husband_phone": null,
+            "wife_name": "Juliet",
+            "wife_email": "test@test.com",
+            "wife_phone": "9876544321",
+            "husband_birthday": null,
+            "wife_birthday": null,
+            "wedding_anniversary": null,
+            "talks_prepared": "None",
+            "children_info": null,
+            "address": "test, test",
+            "presenting_couple": 1,
+            "host_couple": 0,
+            "previous_presenting_couple": 1,
+            "preferred_payment_method": 0,
+            "payment_account": null,
+            "notes": null,
+            "signature": null
+        },
+}
+Sample Error Response: 
+
+
+
+
+
+
+API Name: 
+Priests
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/priests/get?community_id=4
+Method:
+ Get
+Parameters: 
+Name
+Required
+Description
+    • community_id
+    • Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "priest_id": 48,
+            "community_id": 4,
+            "full_name": "Test 1",
+            "email": "blake@videooptimize.com",
+            "phone": "56567",
+            "birthday": null,
+            "weeding_ordination": null,
+            "signature": "http://ceedemo.xyz/public/signature/GnnrLUExrX.jpeg"
+        },
+        {
+            "priest_id": 49,
+            "community_id": 4,
+            "full_name": "oashi",
+            "email": "o@gmail.com",
+            "phone": "123456789123",
+            "birthday": null,
+            "weeding_ordination": null,
+            "signature": "http://ceedemo.xyz/public/signature/"
+        },
+Sample Error Response: 
+
+
+
+API Name: 
+Users
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/users/get?community_id=4
+Method:
+ Get
+Parameters: 
+Name
+Required
+Description
+    • community_id
+Yes
+    • You can Get this id from “Communities” API.
+
+Sample Parameter:
+    • community_id=4
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 129,
+            "community_id": 4,
+            "name": "BBIL test",
+            "email": "mail2technerd@gmail.com",
+            "phone": "12345678912",
+            "admin_date": "2017-10-17 11:46:10",
+            "status": "active",
+            "finance_admin": 1,
+            "leadership_admin": 1,
+            "registration_admin": 1,
+            "host_admin": 0,
+            "last_login": "2019-02-19 10:39:08",
+            "created_at": "2019-01-03 12:18:04"
+        },
+}
+Sample Error Response: 
+
+
+
+API Name: 
+Schedule all Registration
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/registration/get?community_id=4&sch_id=969
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    • Community_id
+    • sch_id
+    • Yes
+    • Yes
+    • You can Get this id from “Communities” API.
+    • You can Get this id from “Schedule” API.
+
+Sample Parameter:
+    • community_id=4
+    • sch_id=969
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+       {
+            "reg_id": 14805,
+            "community_id": 4,
+            "reg_sch_id": 969,
+            "reg_date": "2019-08-02 17:58:39",
+            "reg_payment_status": "Completed",
+            "reg_txn_id": "tkSj6hgcTl",
+            "reg_payment_type": "PayPal",
+            "reg_payee": "eBkUdVjUHY",
+            "reg_payment_email": null,
+            "reg_amount": "420564.00",
+            "reg_refund_amount": "268854.00",
+            "reg_refund_txn_id": "992572",
+            "reg_refund_date": null,
+            "reg_f_first": "oJa7WCfqx1",
+            "reg_f_last": "QHEsTvKmxC",
+            "reg_f_age": 364986,
+            "reg_f_religion": "Catholic",
+            "reg_m_first": "Rc4QUVGAnK",
+            "reg_m_last": "FqiV2wyGwc",
+            "reg_m_age": 130095,
+            "reg_m_religion": "Catholic",
+            "reg_parish": "aX1HNOr3dL",
+            "reg_priest": "pUFcxIzSJ2",
+            "reg_ref": "NoRef",
+            "reg_comments": "GzNKAo5vxN",
+            "reg_post_weekend_notes": null,
+            "reg_scholarship_amount": "24341.00",
+            "reg_attended": 0,
+            "reg_full_weekend": 0,
+            "reg_partial_weekend": 0,
+            "reg_no_show": 0,
+            "reg_special_requests": "OvHSmZjyw6",
+            "interested_in_presenting": null,
+            "interested_in_hosting": null,
+            "weekend_notes": null,
+            "prereg_code": "98e545003d",
+            "reg_f_do_not_mail": 0,
+            "reg_m_do_not_mail": 0,
+            "reg_all_do_not_mail": 0,
+            "sch_id": 969,
+            "sch_date": "2020-01-31",
+            "sch_status": "active",
+            "sch_cap": 12,
+            "sch_price": "5000.00",
+            "sch_notes": null,
+            "sch_loc_id": 8,
+            "couple_a_id": null,
+            "couple_b_id": null,
+            "hosting_couple_1": null,
+            "hosting_couple_2": null,
+            "priest_id": null,
+            "attendance_report_submitted_by": null
+        },
+       
+    ]
+}
+
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "Some error occured. Please try again later"
+}
+
+
+
+
+
+API Name: 
+Update Registration
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/registration/update
+Method:
+ Post
+Body: 
+Name
+Required
+Description
+    1. Auth_token
+    2. Reg_id
+    3. Interested_in_hosting
+    4. Interested_in_presenting
+    5. Reg_post_weekend_notes
+    6. Reg_full_weekend
+    7. Reg_partial_weekend
+    8. Reg_no_show
+    9. reg_attended
+    1. Yes
+    2. Yes
+    3. No
+    4. No
+    5. No
+    6. No
+    7. No
+    8. No
+    9. No
+    1. You need to pass auth_token 'ceeweekend' as base64 encoded for security token.
+    2. You can get this id from “Create Registration” API.
+    3. You can use (0/1) 0= No and 1= Yes.
+    4. You can use (0/1) 0= No and 1= Yes.
+    5. You can use (0/1) 0= No and 1= Yes.
+    6. You can use (0/1) 0= No and 1= Yes.
+    7. You can use (0/1) 0= No and 1= Yes.
+    8. You can use (0/1) 0= No and 1= Yes.
+    9. You can use (0/1) 0= No and 1= Yes.
+
+Sample Parameter:
+    • Auth_token = Y2Vld2Vla2VuZA==
+    • Reg_id = 14802
+    • Interested_in_hosting = 0
+    • Interested_in_presenting = 1
+    • Reg_post_weekend_notes = 0
+    • Reg_full_weekend = 1
+    • Reg_partial_weekend = 1
+    • Reg_no_show = 0
+    • Reg_attended = 1
+Sample Response: 
+
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "Invalid auth token"
+}
+
+
+API Name: 
+Receipt
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/receipts/get?community_id=4&sch_id=971&presenter_id=33
+Method:
+ GET
+Parameters: 
+Name
+Required
+Description
+    1. Community_id
+    2. sch_id
+    3. presenter_id
+    1. Yes
+    2. Yes
+    3. Yes
+    1. You can Get this id from “Communities” API.
+    2. You can Get this id from “Schedule” API.
+    3. You can Get this id from “Presenter” API.
+
+Sample Parameter:
+    • community_id=4
+    • sch_id=971
+    • presenter_id=33
+Sample Response: 
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "community_id": 4,
+            "weekend_id": 971,
+            "receipt_image": "http://ceedemo.xyz/public/image/07042ac7d03d3b9911a00da43ce0079a1550656916_thumb.jpg",
+            "pdf_path": "http://ceedemo.xyz/public/image/49c166931e8a70ff2a57a5780dcbb8921550656916.pdf",
+            "mime_type": "pdf",
+            "submitted_by": 33,
+            "requested_amount": 9999.99001,
+            "paid_amount": 9999.00001,
+            "approved_by_finance": 138,
+            "approved_by_leadership": 129,
+            "expense_type": 7,
+            "transaction_check_no": null,
+            "method_of_payment": 7,
+            "date_paid": "2019-01-27"
+        },
+        {
+            "id": 59,
+            "community_id": 4,
+            "weekend_id": 971,
+            "receipt_image": null,
+            "pdf_path": null,
+            "mime_type": "jpg",
+            "submitted_by": 33,
+            "requested_amount": 100,
+            "paid_amount": null,
+            "approved_by_finance": null,
+            "approved_by_leadership": null,
+            "expense_type": 1,
+            "transaction_check_no": null,
+            "method_of_payment": null,
+            "date_paid": null
+        }
+    ]
+}
+
+Sample Error Response: 
+
+
+
+
+API Name: 
+Create Receipt
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/receipts/store?auth_token=Y2Vld2Vla2VuZA==&community_id=4&weekend_id=971&receipt_image=&submitted_by=33&requested_amount=5500&expense_type=1&note=Some note.test
+Method:
+ Post
+Parameters: 
+Name
+Required
+Description
+    1. auth_token
+    2. community_id
+    3. weekend_id
+    4. receipt_image
+    5. submitted_by
+    6. requested_amount
+    7. expense_type
+    8. note
+    1. Yes
+    2. Yes
+    3. Yes
+    4. No
+    5. Yes
+    6. Yes
+    7. No
+    8. No
+    • you need to pass auth_token 'ceeweekend' as base64 encoded for security token.
+    • You can Get this id from “Communities” API.
+    • You can Get this id from “Schedule” API.
+    • Any image link.
+    • You can Get this id from “Presenters” API.
+    • Requested Amount.
+    • You can Get this id from “Expense Details” API.
+    • Any note.
+
+Sample Parameter:
+    • auth_token=Y2Vld2Vla2VuZA==
+    • community_id=4
+    • weekend_id=971
+    • receipt_image=
+    • submitted_by=33
+    • requested_amount=5500
+    • expense_type=1
+    • note=Some note.test
+Sample Response: 
+{
+    "status": 200,
+    "reason": "Receipt saved successfully",
+    "receipt_id": 63
+}
+Sample Error Response: 
+
+
+
+API Name: 
+Create Error Log
+API description: 
+
+Resource URL: 
+http://ceedemo.xyz/service/error_log_store
+Method:
+ POST
+Parameters: 
+Name
+Required
+Description
+    • method_name
+    • line_number
+    • file_path
+    • Exception_message
+    • object
+    • type
+    • page_url
+    • arguments
+    • prefix
+    • domain
+    • Yes
+    • Yes
+    • Yes
+    • Yes
+    • No
+    • No
+    • No
+    • No
+    • No
+    • Yes
+
+
+Sample Parameter:
+
+Sample Response: 
+{
+    "status": 200,
+    "reason": "Error log saved successfully"
+}
+Sample Error Response: 
+{
+    "status": 401,
+    "reason": "Method name is required"
+}
+
