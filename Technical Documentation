@@ -1,0 +1,84 @@
+Communities
+Feature: View Communities
+
+Route: /community
+
+Controller: AdminController
+
+Function: community
+
+View: superadmin/community/community.blade.php
+
+Description: This feature will show the list of communities
+
+Note:
+
+Feature: Search Communities
+
+Route: /community?search_string=test
+
+Controller: AdminController
+
+Function: community
+
+View: superadmin/community/community.blade.php
+
+Description: This feature will search the list of communities
+
+Note:
+
+Feature: Create New Community
+
+Route: /create_community
+
+Controller: AdminController
+
+Function: createCommunity
+
+View: superadmin/community/create_community.blade.php
+
+Description: This feature will create new community
+
+Note:
+
+Feature: Edit Community
+
+Route: /edit_community/1
+
+Controller: AdminController
+
+Function: communityDetails
+
+View: superadmin/community/community_details.blade.php
+
+Description: This feature will view the details of a community
+
+Note:
+
+Feature: Active/Inactive Community
+
+Route: /update_community_status
+
+Controller: AdminController
+
+Function: updateCommunityStatus
+
+View: N/A
+
+Description: This feature will view the details of a community
+
+Note:
+
+Feature: Access Community
+
+Route: /access?token=MQ==
+
+Controller: HomeController
+
+Function: access
+
+View: N/A
+
+Description: This feature will give super admin an option to access a community dashboard
+
+Note:
