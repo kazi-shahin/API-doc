@@ -177,7 +177,7 @@ Description: This feature will show and manage all the error log of
 the system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Feature: Search and Filter Error Logs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
-Route: /error-logs?select_filter=Undefined+index&amp;type=1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /error-logs?select_filter=Undefined+index&type=1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Function: errorLogs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 View: superadmin/error_logs.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
@@ -497,7 +497,7 @@ Description: This feature will show the list of all the registration
 of the community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Feature: Filter Registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
-Route: /admin/registration?search_string=&amp;status=Pending</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration?search_string=&status=Pending</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
 View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
