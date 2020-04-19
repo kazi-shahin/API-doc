@@ -4,9 +4,121 @@
 	</style>
 
 
-<p style="margin-bottom: 0in"><br>
+<p style="margin-bottom: 0in">
+	
+	
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Arial"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+	
 
-</p>
+
+
+
+
+</p><table cellspacing="0" border="0"><p>
+	<colgroup width="249"></colgroup>
+	<colgroup width="445"></colgroup>
+	<colgroup width="169"></colgroup>
+	<tbody><tr>
+		<td height="21" align="left" valign="bottom"><b><font face="Cambria" size="4">All&nbsp; &nbsp; API</font></b></td>
+		<td align="left" valign="bottom"><b><font face="Roboto" size="4" color="#000000">Resource URL</font></b></td>
+		<td align="center" valign="bottom"><b><font size="4" color="#151B26">Method</font></b></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Schedule</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font color="#000000"><a href="http://ceedemo.xyz/service/schedule/get?community_id=4&amp;range_start=2019-07-01&amp;range_end=2019-07-25">http://ceedemo.xyz/service/schedule/get?community_id=4&amp;range_start=2019-07-01&amp;range_end=2019-07-25</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Schedule Group</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font color="#000000"><a href="http://ceedemo.xyz/service/schedule/get_group?community_id=4">http://ceedemo.xyz/service/schedule/get_group?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Roboto" color="#000000">Create Registration</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/registration/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api&amp;reg_f_last=oashi_api&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api&amp;reg_m_last=tarikul_Api&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28">http://ceedemo.xyz/service/registration/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api&amp;reg_f_last=oashi_api&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api&amp;reg_m_last=tarikul_Api&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Roboto" color="#000000">Update Transaction</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000"><a href="http://ceedemo.xyz/service/registration/update_transaction?reg_id=14802&amp;reg_txn_id=1U874436NX961701GGG&amp;reg_amount=10&amp;reg_payment_status=Completed">http://ceedemo.xyz/service/registration/update_transaction?reg_id=14802&amp;reg_txn_id=1U874436NX961701GGG&amp;reg_amount=10&amp;reg_payment_status=Completed</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Roboto" color="#000000">Create Scholarship Registration</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/scholarship/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api2&amp;reg_f_last=oashi_api2&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api2@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api2&amp;reg_m_last=tarikul_Api2&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api2@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28&amp;reg_couple_payment=300&amp;reg_parish_name=parish_api&amp;reg_priest_name=priest_api&amp;reg_priest_email=priestapi@gmail.com&amp;reg_priest_phone=122354354e&amp;reg_request_reason=api_poor">http://ceedemo.xyz/service/scholarship/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api2&amp;reg_f_last=oashi_api2&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api2@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api2&amp;reg_m_last=tarikul_Api2&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api2@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28&amp;reg_couple_payment=300&amp;reg_parish_name=parish_api&amp;reg_priest_name=priest_api&amp;reg_priest_email=priestapi@gmail.com&amp;reg_priest_phone=122354354e&amp;reg_request_reason=api_poor</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Communities</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/communities/get">http://ceedemo.xyz/service/communities/get</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Roboto" color="#000000">Communitiy by Domain</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><font color="#000000"><a href="http://ceedemo.xyz/service/community_by_domain/get">http://ceedemo.xyz/service/community_by_domain/get</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Community Resources</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font color="#000000"><a href="http://ceedemo.xyz/service/community_resources/get?community_id=4">http://ceedemo.xyz/service/community_resources/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Expense Details</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/expense_descriptions/get?community_id=4">http://ceedemo.xyz/service/expense_descriptions/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Locations</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/location/get?community_id=4">http://ceedemo.xyz/service/location/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">Presenters</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/presenters/get?community_id=4">http://ceedemo.xyz/service/presenters/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">Priests</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/priests/get?community_id=4">http://ceedemo.xyz/service/priests/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">Users</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/users/get?community_id=4">http://ceedemo.xyz/service/users/get?community_id=4</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Schedule all Registration</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font color="#000000"><a href="http://ceedemo.xyz/service/registration/get?community_id=4&amp;sch_id=969">http://ceedemo.xyz/service/registration/get?community_id=4&amp;sch_id=969</a></font></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">Receipt</font></td>
+		<td align="left" valign="bottom" bgcolor="#B6D7A8"><u><font face="OpenSans" color="#000000"><a href="http://ceedemo.xyz/service/receipts/get?community_id=4&amp;sch_id=971&amp;presenter_id=33">http://ceedemo.xyz/service/receipts/get?community_id=4&amp;sch_id=971&amp;presenter_id=33</a></font></u></td>
+		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">Create Receipt</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><font color="#000000">http://ceedemo.xyz/service/receipts/store?auth_token=Y2Vld2Vla2VuZA==&amp;community_id=4&amp;weekend_id=971&amp;receipt_image=&amp;submitted_by=33&amp;requested_amount=5500&amp;expense_type=1&amp;note=Some note.test</font></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Roboto" color="#000000">Update Registration</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><u><font color="#000000"><a href="http://ceedemo.xyz/service/registration/update">http://ceedemo.xyz/service/registration/update</a></font></u></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria" color="#000000">POST</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="left" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria">Create Error Log</font></td>
+		<td align="left" valign="bottom" bgcolor="#DD7E6B"><u><font color="#000000"><a href="http://ceedemo.xyz/service/error_log/store">http://ceedemo.xyz/service/error_log/store</a></font></u></td>
+		<td align="center" valign="bottom" bgcolor="#DD7E6B"><font face="Cambria">POST</font></td>
+	</tr>
+</tbody></p><p><tbody><br></tbody></p></table>
 <table width="624" cellpadding="7" cellspacing="0">
 	<colgroup><col width="180">
 	<col width="414">
@@ -496,7 +608,7 @@
 			</p>
 		</td>
 		<td width="414" style="border: 1.00pt solid #000000; padding: 0.07in">
-			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/registration/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api&amp;reg_f_last=oashi_api&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api&amp;reg_m_last=tarikul_Api&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28</font></p>
+			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/registration/store?community_id=4®_sch_id=245®_f_first=oashi_Api®_f_last=oashi_api®_f_age=20®_f_religion=Catholic®_f_married=no®_f_email=api@gmail.com®_f_phone=12343212®_m_first=tarikul_Api®_m_last=tarikul_Api®_m_age=20®_m_religion=Catholic®_m_married=no®_m_email=api@gmail.com®_m_phone=23353456443®_address=sukrabad_api®_city=city_api®_state=state_api®_zip=zip_api®_wedding_date=2019-06-28</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -791,7 +903,7 @@
 			</p>
 		</td>
 		<td width="414" style="border: 1.00pt solid #000000; padding: 0.07in">
-			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/registration/update_transaction?reg_id=14802&amp;reg_txn_id=1U874436NX961701GGG&amp;reg_amount=10&amp;reg_payment_status=Completed</font></p>
+			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/registration/update_transaction?reg_id=14802®_txn_id=1U874436NX961701GGG®_amount=10®_payment_status=Completed</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -1081,7 +1193,7 @@
 			</p>
 		</td>
 		<td width="414" style="border: 1.00pt solid #000000; padding: 0.07in">
-			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/scholarship/store?community_id=4&amp;reg_sch_id=245&amp;reg_f_first=oashi_Api2&amp;reg_f_last=oashi_api2&amp;reg_f_age=20&amp;reg_f_religion=Catholic&amp;reg_f_married=no&amp;reg_f_email=api2@gmail.com&amp;reg_f_phone=12343212&amp;reg_m_first=tarikul_Api2&amp;reg_m_last=tarikul_Api2&amp;reg_m_age=20&amp;reg_m_religion=Catholic&amp;reg_m_married=no&amp;reg_m_email=api2@gmail.com&amp;reg_m_phone=23353456443&amp;reg_address=sukrabad_api&amp;reg_city=city_api&amp;reg_state=state_api&amp;reg_zip=zip_api&amp;reg_wedding_date=2019-06-28&amp;reg_couple_payment=300&amp;reg_parish_name=parish_api&amp;reg_priest_name=priest_api&amp;reg_priest_email=priestapi@gmail.com&amp;reg_priest_phone=122354354e&amp;reg_request_reason=api_poor</font></p>
+			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/scholarship/store?community_id=4®_sch_id=245®_f_first=oashi_Api2®_f_last=oashi_api2®_f_age=20®_f_religion=Catholic®_f_married=no®_f_email=api2@gmail.com®_f_phone=12343212®_m_first=tarikul_Api2®_m_last=tarikul_Api2®_m_age=20®_m_religion=Catholic®_m_married=no®_m_email=api2@gmail.com®_m_phone=23353456443®_address=sukrabad_api®_city=city_api®_state=state_api®_zip=zip_api®_wedding_date=2019-06-28®_couple_payment=300®_parish_name=parish_api®_priest_name=priest_api®_priest_email=priestapi@gmail.com®_priest_phone=122354354e®_request_reason=api_poor</font></p>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -1565,36 +1677,31 @@
 			null,</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"scholarship_application_text":
-			"&lt;p&gt;Dear
-			[priest_name],&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;[groom_full_name]
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">Dear
+			[priest_name],</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">[groom_full_name]
 			and [bride_full_name] are requesting a scholarship to attend the
 			Catholic Engaged Encounter Retreat. You will be receiving another
 			email from us with a link to approve their scholarship request.
 			Please review their application if you agree to support their
 			request, by following the link in the subsequent
-			email.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Thank
-			you,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;[registration_user_name]&lt;/p&gt;&lt;p&gt;[community_name]&lt;/p&gt;",</font></font></p>
+			email.</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">Thank
+			you,</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">[registration_user_name]</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">[community_name]</font></font></p><font face="Roboto, serif"><font style="font-size: 9pt">",</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"scholarship_approval_text":
-			"&lt;p&gt;&lt;span style=\"color: rgb(21, 27, 38);
-			font-family: -apple-system, BlinkMacSystemFont, \" segoe=\"\"
-			ui\",=\"\" roboto,=\"\" \"helvetica=\"\"
-			neue\",=\"\" helvetica,=\"\" arial,=\"\"
-			sans-serif;=\"\" font-size:=\"\" 13px;=\"\"
-			white-space:=\"\" pre-wrap;\"=\"\"&gt;Your
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><span style="\&quot;color:" rgb(21,="" 27,="" 38);="" font-family:="" -apple-system,="" blinkmacsystemfont,="" \"="" segoe="\&quot;\&quot;" ui\",="\&quot;\&quot;" roboto,="\&quot;\&quot;" \"helvetica="\&quot;\&quot;" neue\",="\&quot;\&quot;" helvetica,="\&quot;\&quot;" arial,="\&quot;\&quot;" sans-serif;="\&quot;\&quot;" font-size:="\&quot;\&quot;" 13px;="\&quot;\&quot;" white-space:="\&quot;\&quot;" pre-wrap;\"="\&quot;\&quot;">Your
 			scholarship has been approved for a Catholic Engaged Encounter
-			retreat through &lt;/span&gt;San Diego Engaged Encounter. We will
+			retreat through </span>San Diego Engaged Encounter. We will
 			soon be emailing you a link to allow you to
-			register.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;God Bless
-			you,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Roisin
-			&amp; Tim O’Neill&lt;/i&gt;&lt;/p&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;",</font></font></p>
+			register.</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">God Bless
+			you,</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><i>Roisin
+			&amp; Tim O’Neill</i></font></font></p><div><font face="Roboto, serif"><font style="font-size: 9pt"><i><br></i></font></font></div><font face="Roboto, serif"><font style="font-size: 9pt">",</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"scholarship_approval_bride_text":
-			"&lt;p&gt;Your scholarship has been approved for a Catholic
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">Your scholarship has been approved for a Catholic
 			Engaged Encounter retreat through [community_name]. We will soon
-			be emailing you a link to allow to register.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;God
-			bless you&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Roisin
-			&amp; Tim O’Neill&lt;/i&gt;&lt;/p&gt;",</font></font></p>
+			be emailing you a link to allow to register.</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><br></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">God
+			bless you</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><i><br></i></font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><i>Roisin
+			&amp; Tim O’Neill</i></font></font></p><font face="Roboto, serif"><font style="font-size: 9pt">",</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"scholarship_approval_link_text":
 			null,</font></font></p>
@@ -2349,7 +2456,7 @@
 			"3010 Southern Avenue Garden Grove",</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"information":
-			"&lt;p&gt;Congratulations on your decision to marry&lt;/p&gt;"</font></font></p>
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">Congratulations on your decision to marry</font></font></p><font face="Roboto, serif"><font style="font-size: 9pt">"</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			        <font face="Roboto, serif"><font style="font-size: 9pt">},</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
@@ -2367,10 +2474,8 @@
 			"sukrabad",</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"information":
-			"&lt;p&gt;&lt;span style=\"color: rgb(84, 84, 84);
-			font-family: arial, sans-serif; font-size: small;\"&gt;Modern
-			and flexible &lt;/span&gt;Cloud &lt;span style=\"background-color:
-			rgb(0, 255, 0);\"&gt;Integration.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;"</font></font></p>
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt"><span style="\&quot;color:" rgb(84,="" 84,="" 84);="" font-family:="" arial,="" sans-serif;="" font-size:="" small;\"="">Modern
+			and flexible </span>Cloud <span style="\&quot;background-color:" rgb(0,="" 255,="" 0);\"="">Integration.</span></font></font></p><font face="Roboto, serif"><font style="font-size: 9pt">"</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			        <font face="Roboto, serif"><font style="font-size: 9pt">},</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
@@ -2386,7 +2491,7 @@
 			"Dhaka",</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			            <font face="Roboto, serif"><font style="font-size: 9pt">"information":
-			"&lt;p&gt;Lorem ipsome dolor site emit.&amp;nbsp;&lt;/p&gt;"</font></font></p>
+			"</font></font></p><p><font face="Roboto, serif"><font style="font-size: 9pt">Lorem ipsome dolor site emit.&nbsp;</font></font></p><font face="Roboto, serif"><font style="font-size: 9pt">"</font></font><p></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
 			        <font face="Roboto, serif"><font style="font-size: 9pt">}</font></font></p>
 			<p style="margin-bottom: 0in; line-height: 100%; orphans: 0; widows: 0">
@@ -3871,7 +3976,7 @@
 			</p>
 		</td>
 		<td width="414" style="border: 1.00pt solid #000000; padding: 0.07in">
-			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/receipts/store?auth_token=Y2Vld2Vla2VuZA==&amp;community_id=4&amp;weekend_id=971&amp;receipt_image=&amp;submitted_by=33&amp;requested_amount=5500&amp;expense_type=1&amp;note=Some
+			<p><font style="font-size: 9pt">http://ceedemo.xyz/service/receipts/store?auth_token=Y2Vld2Vla2VuZA==&amp;community_id=4&amp;weekend_id=971&amp;receipt_image=&amp;submitted_by=33&amp;requested_amount=5500&amp;expense_type=1¬e=Some
 			note.test</font></p>
 		</td>
 	</tr>
