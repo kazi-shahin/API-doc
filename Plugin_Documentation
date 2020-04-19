@@ -1,1 +1,183 @@
-<font color="#333333">Plugin document</font>
+<style type="text/css">
+		@page { margin: 0.79in }
+		h3 { margin-top: 0.22in; margin-bottom: 0.06in; direction: ltr; color: #434343; line-height: 100%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2 }
+		h3.western { font-family: "Arial", serif; font-weight: normal }
+		h3.cjk { font-family: "Arial"; font-weight: normal }
+		h3.ctl { font-family: "Arial"; font-weight: normal }
+		p { margin-bottom: 0.1in; line-height: 115% }
+	</style>
+
+
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto">
+<font color="#333333">Description</font></h3>
+<p style="margin-bottom: 0in; background: #eef1f5"><font color="#333333"><font style="font-size: 10pt">This
+plugin allows the admin to add automatic registrations for Catholic
+Engaged Encounter weekend retreats. It shows the locations and
+available weekend spaces. Visitors can register by filling the form
+on the site. Registrations are viewable through the "Catholic
+Engaged Encounter Management Community Portal".</font></font></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_zb0zvqvi2a9"></a>
+<font color="#333333">Version:
+2.0.3</font></h3>
+<ul>
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Tested
+	up to: 5.4</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">License:
+	GPLv2 or later</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0.11in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">License
+	URI: http://www.gnu.org/licenses/gpl-2.0.html</font></font></p>
+</li></ul>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 1.15in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_m54gbdvwlhrx"></a>
+<font color="#333333">Changelog</font></h3>
+<ul>
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Prevention
+	of duplicate registration by disabling the back button and adding a
+	loader.</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Making
+	paypal form editable inspecting the element with browser</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Copy
+	button for shortcodes</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Validations
+	enhancement for name and age fields</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Thank
+	you page data handling</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Error
+	handling with API.</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Another
+	return page created on activation</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Custom
+	message on activation of plugin</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Text
+	along or in line with the shortcode is made fit with the editor.</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Documentations
+	are added</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Menus
+	are reduced from backend</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Summernote
+	editor has been added</font></font></p>
+	</li><li>
+<p style="margin-bottom: 1.15in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Return
+	page added for donation</font></font></p>
+</li></ul>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_9hqa1rp0puo6"></a>
+<font color="#333333">Installation</font></h3>
+<ol>
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Upload
+	the entire Catholic_Engaged_Encounter_Registrations folder to the
+	/wp-content/plugins/ directory.</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0.11in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">Activate
+	the plugin through the Plugins screen (Plugins &gt; Installed
+	Plugins).</font></font></p>
+</li></ol>
+<p style="margin-top: 0.21in; margin-bottom: 0.21in; line-height: 100%; background: #eef1f5">
+<font color="#333333"><font style="font-size: 10pt">You will
+find CEE menu in your WordPress admin screen.</font></font></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_2fvye211fmy9"></a>
+<font color="#333333">[Community_Schedules]</font></h3>
+<p style="margin-bottom: 0in; background: #eef1f5"><font color="#333333"><font style="font-size: 10pt">You
+can get all the schedule lists and their corresponding information
+according to location where someone can register and pay their fee
+using paypal payment method.</font></font></p>
+<p style="margin-bottom: 0in; background: #eef1f5"><br>
+
+</p>
+<p style="margin-bottom: 0in; background: #eef1f5"></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_9krgynyvz0ft"></a>
+<font color="#333333">[Schedule_Chronological]</font></h3>
+<p style="margin-bottom: 0in; background: #eef1f5"><font color="#333333"><font style="font-size: 10pt">This
+shortcode helps you get all the schedule lists chronologically where
+someone can register and make the payment using paypal payment
+method.</font></font></p>
+<p style="margin-bottom: 0in; background: #eef1f5"><br>
+
+</p>
+<p style="margin-bottom: 0in; background: #eef1f5"></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_cwx3p6dtga4q"></a>
+<font color="#333333">[Scholarship_Shortcode]</font></h3>
+<p style="margin-bottom: 0in; background: #eef1f5"><font color="#333333"><font style="font-size: 10pt">Using
+this shortcode, you can get all the schedule lists where someone can
+register for a scholarship. Remember, no payment is required for this
+option.</font></font></p>
+<p style="margin-bottom: 0in; background: #eef1f5"><br>
+
+</p>
+<p style="margin-bottom: 0in; background: #eef1f5"></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 1.15in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_yrr4k9knc8iz"></a>
+<font color="#333333">[Community_Locations]</font></h3>
+<p style="margin-bottom: 1.04in; line-height: 100%; background: #eef1f5">
+<font color="#333333"><font style="font-size: 10pt">This is
+for getting all the locations. You can get all the information about
+the locations as well as their location in google map.</font></font></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 0.11in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_43nh4yot51zu"></a>
+<font color="#333333">[Add_Donation]</font></h3>
+<p style="margin-bottom: 0in; background: #eef1f5"><font color="#333333"><font style="font-size: 10pt">Admin
+can accept donations through this shortcode through paypal donations
+facility where donors can choose if they make it monthly donation. </font></font>
+</p>
+<p style="margin-bottom: 0in; background: #eef1f5"><br>
+
+</p>
+<p style="margin-bottom: 0in; background: #eef1f5"></p>
+<h3 class="western" style="margin-top: 0.21in; margin-bottom: 1.15in; line-height: 110%; page-break-inside: auto; background: #eef1f5; page-break-after: auto"><a name="_2uo8yje6i1sx"></a>
+<font color="#333333">More
+Information</font></h3>
+<ul>
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">The
+	plugin provides capability to add contents before and after of
+	shortcodes from CEE menu in wordPress dashboard.</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">The
+	plugin creates two pages on activation of the plugin where the pages
+	are being deleted at the thime of deactivation. The pages are:</font></font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#c7254e"><font face="Courier New, serif"><font style="font-size: 9pt"><span style="background: #f9f2f4">Thank
+		You For Registering</span></font></font></font></p>
+		</li><li>
+<p style="margin-bottom: 1.15in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">The
+		page is a return page of paypal payment. Users register to a
+		schedule providing their information through the system and pay a
+		specific amount for the schedule. After successfully payment for a
+		schedule, payers are returned to this page and can see their
+		informations as shown in following image.</font></font></p>
+	</li></ol>
+</li></ul>
+<p style="margin-left: 1in; margin-top: 0.21in; margin-bottom: 1.15in; line-height: 100%">
+<font color="#333333"><font style="font-size: 10pt"><br>
+</font></font><font color="#c7254e"><font face="Courier New, serif"><font style="font-size: 9pt"><span style="background: #f9f2f4">Thank
+You For Donation</span></font></font></font></p>
+<ul>
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font color="#333333"><font style="font-size: 10pt">As
+	donors donate to a community, after donation completetion donors are
+	returned to this page and showed a message as follows<br>
+</font></font><br>
+
+	</p>
+	</li><li>
+<p style="margin-bottom: 1.15in; line-height: 100%"></p>
+</li></ul>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
