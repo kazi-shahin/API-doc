@@ -29,7 +29,7 @@
 		<td align="center" valign="bottom"><b><font size="4" color="#151B26">Method</font></b></td>
 	</tr>
 	<tr>
-		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Schedule222</font></td>
+		<td height="21" align="left" valign="bottom" bgcolor="#B6D7A8"><font face="Roboto" color="#000000">Schedule</font></td>
 		<td align="left" valign="bottom" bgcolor="#B6D7A8"><font color="#000000"><a href="http://ceedemo.xyz/service/schedule/get?community_id=4&amp;range_start=2019-07-01&amp;range_end=2019-07-25">http://ceedemo.xyz/service/schedule/get?community_id=4&amp;range_start=2019-07-01&amp;range_end=2019-07-25</a></font></td>
 		<td align="center" valign="bottom" bgcolor="#B6D7A8"><font face="Cambria" color="#000000">GET</font></td>
 	</tr>
