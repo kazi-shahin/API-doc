@@ -1,6 +1,5 @@
-Communities lorem
-Feature: View Communities
-
+<p><b><span style="font-size: 18px;">Communities</span></b></p><p>Feature: View Communities
+</p><p>
 Route: /community
 
 Controller: AdminController
@@ -81,4 +80,4 @@ View: N/A
 
 Description: This feature will give super admin an option to access a community dashboard
 
-Note:
+Note:</p>
