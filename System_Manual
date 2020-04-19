@@ -1,3 +1,1338 @@
-This is system Manual.
+<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115% }
+	</style>
 
-Lorem ipsome dolor site emit.
+
+<p align="center" style="margin-bottom: 0in; border: 1.00pt solid #ffffff; padding: 0in; background: #3c78d8">
+<font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 18pt"><b>Super
+Admin</b></font></font></font></p>
+<ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><font style="font-size: 12pt">Profile</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Summary</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Community</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Users</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Error
+	Log</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Bug
+	Reports</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">IPN
+	Information</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">IPN
+	Access</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><font style="font-size: 12pt">Settings</font></font></p>
+	</li><li>
+<p style="margin-bottom: 0.14in; line-height: 100%"><font face="Roboto, serif"><font style="font-size: 12pt">Features</font></font></p>
+</li></ol>
+<p align="center" style="margin-bottom: 0.14in; line-height: 100%; background: #3c78d8">
+<font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Profile:</b></font></font></font></p>
+<p style="margin-left: 1in; margin-bottom: 0in; border: none; padding: 0in">
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">Here Super Admin can edit their profile
+information from this My Profile Menu.</font></p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Summary:</b></font></font></font></p>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">This
+is Summary page of this application:</font></p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<ol>
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Community:
+	</b></font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of Community of this application.</font></p>
+<ol start="2">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Current
+	Registrations: </b></font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of registrations for all communities.</font></p>
+<ol start="3">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Pending
+	Registrations: </b></font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of pending registrations which payment not
+completed yet.</font></p>
+<ol start="4">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Schedule:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of schedules of all communities.</font></p>
+<ol start="5">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>User:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing total number of Users for all communities</font></p>
+<ol start="6">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Location:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of  Locations for all communities.</font></p>
+<ol start="7">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Prest:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of priests for all communities.</font></p>
+<ol start="8">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Presenters:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of presenters for all communities.</font></p>
+<ol start="9">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Receipts:</b></font></p>
+</li></ol>
+<p style="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0in;">
+<font face="Roboto, serif">Here showing total number of Receipts for
+all communities.</font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-left: 1in; margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-left: 1in; margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-left: 1in; margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Community</b></font></font></font></p>
+<p style="margin-left: 0.5in; margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">This is the community page and this is the
+main part of this application. Here showing all community lists of
+this application. </font>
+</p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in;">
+	<font face="Roboto, serif"><b>Add New: </b></font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0.14in;">
+<font face="Roboto, serif">Super admin can create a new Community.
+Create a new community, need a name, prefix and url. This field is
+mandatory.</font></p>
+<p style="margin-bottom: 0in; border: 1.5pt solid rgb(0, 0, 0); padding: 0in;">
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-top: 0.14in; margin-bottom: 0in;"><br>
+
+</p>
+<ol start="2">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Edit
+	Community:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0.14in;">
+<font face="Roboto, serif">Super admin can edit and update any
+Community information.</font></p>
+<p style="margin-bottom: 0in; border: 1.5pt solid rgb(0, 0, 0); padding: 0in;">
+</p>
+<ol>
+	
+		<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in;">
+		<font face="Roboto, serif"><b>Active/Inactive:</b></font></p>
+	</li>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in;"><font face="Roboto, serif">If
+community Inactive users can’t login to community, if community
+active then users can login to community.</font></p>
+<ol>
+	<ol start="2">
+		<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Access:</b></font></p>
+	</li></ol>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+click to browse this application.</font></p>
+<ol>
+	<ol start="3">
+		<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Create
+		New User:</b></font></p>
+	</li></ol>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+super admin can create new users for this community. All user lists
+showing this page for this community.</font></p>
+<ol start="3">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Community
+	Name:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing application name.</font></p>
+<ol start="4">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Domain:
+	</b></font><font face="Roboto, serif">Community domain</font></p>
+	</li><li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Prefix:
+	</b></font><font face="Roboto, serif">which are shown before the
+	main domain.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Total
+	Registration:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Here
+showing the total number of registration of this application.</font></p>
+<ol start="7">
+	<li>
+<p style="margin-bottom: 0in;"><font face="Roboto, serif"><b>Action:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in;"><font face="Roboto, serif">Super
+admin can access a community of this button.</font></p>
+<p style="margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-bottom: 0in;"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Users</b></font></font></font></p>
+<p style="margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">	This is the user list page all users and
+their information show this page.</font></p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Create User:</b></font><font face="Roboto, serif">
+	</font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">This is a user creation page.two type of
+user can create from this page once is “Super Admin” and another
+one is “Site Admin”. Site admin should be one community. Here
+name, email, role, community is a mandatory field. Email is unique.</font></p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-left: 1in; margin-bottom: 0in"><br>
+
+</p>
+<ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Edit
+	User: </b></font><font face="Roboto, serif">In this page user
+	information can be updated.</font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Update
+		User: </b></font><font face="Roboto, serif">Edit any user
+		information and update user button click to update this user
+		information.</font></p>
+		</li><li>
+<p style="margin-bottom: 0.14in; line-height: 100%"><font face="Roboto, serif"><b>Delete:</b></font><font face="Roboto, serif">
+		This button can delete current user.</font></p>
+	</li></ol>
+</li></ol>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Error
+Log</b></font></font></font></p>
+<p style="text-indent: 0.5in; margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">This is the error log page all community
+system error stores in this page.</font></p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Delete
+	All: </b></font>
+	</p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">You
+can delete all buttons from this button.</font></p>
+<ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>View
+	Error Details:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">You
+can see error log details in this button, which page to come and
+which community.</font></p>
+<ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Resolve/Unresolve:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Error
+made resolved and unresolved for this button.</font></p>
+<ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Delete:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">You
+can delete a single error for this button.</font></p>
+<p style="margin-left: 1in; margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Bug
+Reports</b></font></font></font></p>
+<p style="margin-left: 0.5in; margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">This is a bug report page admin and users
+can report any bug or add note for improving this system.</font></p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+	<font face="Roboto, serif"><b>Create New Report: </b></font><font face="Roboto, serif">Create
+	a new bug report when anyone faces a problem.report type, report
+	notes and screenshot needed for creating bug reports.</font></p>
+</li></ol>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<ol start="2">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Edit Report: </b></font>
+	</p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Delete:</b></font></p>
+	</li></ol>
+</li></ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">Super
+admin can delete any bug report.</font></p>
+<ol>
+	<ol start="2">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Resolve:</b></font></p>
+	</li></ol>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">Bug
+status can change via this button. </font>
+</p>
+<ol>
+	<ol start="3">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Update
+		Report:</b></font></p>
+	</li></ol>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">If
+need bug report information can be updated for this button.</font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>IPN
+Information</b></font></font></font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>IPN
+Access</b></font></font></font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Settings</b></font></font></font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Community
+	Admin Email Template:</b></font></p>
+	<ol>
+		<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+		<font face="Roboto, serif"><b>Weekend Overbooked Email: </b></font>
+		</p>
+	</li></ol>
+</li></ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received Community admin when any weekend overbooked.</font></p>
+<ol>
+	<ol start="2">
+		<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+		<font face="Roboto, serif"><b>Feature update Email: </b></font>
+		</p>
+	</li></ol>
+</ol>
+<p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+Email was received when a new feature was added by super admin. This
+email only received community Admin.</font></p>
+<ol start="2">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Community Email Sample:</b></font></p>
+</li></ol>
+<p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+showing all community email templates as samples. When a community
+clicks a sample from the community -&gt; settings this template text
+automatically pastes in the community setting page.</font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p align="center" style="margin-bottom: 0in; background: #1155cc"><font color="#ffffff"><font face="Roboto, serif"><font style="font-size: 14pt"><b>Features</b></font></font></font></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">New features
+added in this page and all communities get this feature and feature
+details.</font></p>
+<p style="margin-bottom: 0in"></p>
+<p style="margin-bottom: 0in"><br>
+
+</p>
+<ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Create
+	Feature: </b></font><font face="Roboto, serif">Here Super Admin can
+	create new features.</font></p>
+</li></ol>
+<p style="margin-left: 0.5in; margin-bottom: 0in"><br>
+
+</p>
+<p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p>
+<p style="margin-left: 0.5in; margin-bottom: 0in"><br>
+
+</p>
+<ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Email
+	New Changes to All Community Admin: </b></font><font face="Roboto, serif">Send
+	email with details feature information for all community admin.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Edit
+	Feature: </b></font><font face="Roboto, serif">This edit button  can
+	edit and update any features information.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Delete
+	Feature: </b></font><font face="Roboto, serif">Delete any feature in
+	this button.</font></p><p style="margin-bottom: 0in"><font face="Roboto, serif"><br></font></p><p align="center" style="margin-bottom: 0in; border: 1.00pt solid #ffffff; padding: 0in; background: #3c78d8">
+<font color="#ffffff"><font face="Roboto, serif"><font size="5" style="font-size: 18pt"><b>Community</b></font></font></font><font color="#ffffff"><font face="Roboto, serif"><font size="5" style="font-size: 18pt">
+</font></font></font>
+</p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif">Profile</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Home</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Registrations</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Schedules</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Peoples</font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Users</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Priests</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Presenters</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Hosts</font></p>
+	</li></ol>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Locations</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Reports</font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Liabilities</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Monthly
+		Income</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">2020
+		Weekends </font>
+		</p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Upcoming
+		Weekends</font></p>
+	</li></ol>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Finance</font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Receipts</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Donations</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Scholarships</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Payment
+		Method</font></p>
+	</li></ol>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Enrichments</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Community
+	Resources</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">More</font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Settings</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Features</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Special
+		Invitations</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Deleted
+		Registrations</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Expense
+		Details</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Parishes</font></p>
+	</li></ol>
+</li></ol><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; line-height: 100%; background: #3c78d8">
+<font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Profile</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">This
+is a user profile page where users can edit and update their
+information from this page.</font></p><p align="center" style="margin-bottom: 0in"></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Home</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">This is a community landing page or home
+page. 9 different important features and page showing in this page.</font></p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Next Weekend Retreat:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to redirect  next weekend's retreats page.</font></p><ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Current
+	Registrations:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to redirect registrations list page.</font></p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Send
+	Scholarship:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to show a scholarship sending pop up for send scholarship.</font></p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Next
+	Weekend Roster:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click and show next weekend roster pdf.</font></p><ol start="5">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Next
+	Weekend Certificate:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to show wedding completion certificate pdf for next weekend.</font><font face="Roboto, serif"><b>
+</b></font>
+</p><ol start="6">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Next
+	Weekend Room Assignments:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Room
+assignment pdf show when click on this.</font></p><ol start="7">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Add
+	Receipts:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to redirect receipt creation page.</font></p><ol start="8">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>View
+	Schedules:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to redirect weekend list page.</font></p><ol start="9">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Settings:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+click to open community settings page.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Registration</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif"><b>There
+are 4 type of registration in this system:</b></font></p><ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Manual
+	Registration</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Special
+	Invite Registration</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Scholarship
+	Registration</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Plugin
+	Registration</font></p>
+</li></ol><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Schedule</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">This
+is the Weekend/schedule list page here all weekend shows on this
+page. </font>
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-right: -0.06in; margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Create
+	Schedule: </b></font><font face="Roboto, serif">Create schedule with
+	all weekend information. Max capacity, retreat start date, venue,
+	price are mandatory fields for creating a new schedule.</font></p>
+</li></ol><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><ol start="2">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Create Multiple Schedule: </b></font><font face="Roboto, serif">Admin
+	can create multiple schedules with same location and multiple
+	retreat date.</font></p>
+</li></ol><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Current
+	view to excel: </b></font><font face="Roboto, serif">This button
+	opens an excel file with all weekend information for this community.</font></p>
+</li></ol><p style="margin-left: 0.5in; margin-bottom: 0in"><br>
+
+</p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Edit
+	Schedule:</b></font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Admin
+		can edit schedule information by this edit option.</font></p>
+		</li><li>
+<p style="margin-bottom: 0.14in; line-height: 100%"><font face="Roboto, serif">Admin
+		can’t update past schedule.</font></p>
+	</li></ol>
+</li></ol><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><ol>
+	<ol start="3">
+		<li>
+<p style="margin-bottom: 0.14in; line-height: 100%"><font face="Roboto, serif"><b>Registrants
+		List:</b></font><font face="Roboto, serif"> In the edit schedule
+		page all registered couples show here.</font></p>
+	</li></ol>
+</ol><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Peoples
+- User</b></font></font></font></p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif">User List: community all users showing in
+	this page.this user access only for this community.</font></p>
+</li></ol><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><ol start="2">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Create User: </b></font><font face="Roboto, serif">this
+	is create a user page here name, email, role and password field are
+	mandatory.</font></p>
+</li></ol><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif"><b>Edit
+	user: </b></font><font face="Roboto, serif">User information can
+	edit on this page.</font></p>
+</li></ol><p style="margin-top: 0.14in; margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in; line-height: 100%">
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Peoples
+- Priests</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif"><b>Priests
+List: </b></font>
+</p><p style="text-indent: 0.5in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">Community
+all priests showing in this page with their contact information.</font></p><ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Download
+	Priest PDF: </b></font>
+	</p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Community
+all priests information can download as pdf in this button.</font></p><ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Copy
+	Email:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Copy
+to all priests' email in this button.</font></p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Create/Edit
+	Priests:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">create/Edit
+priests with their all information name is mandatory and other not
+mandatory fields.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Peoples
+- Presenter</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">Presenter
+is who can present the weekend retreats. All presenters shown on this
+page for this community.Presenter family names, husband and wife
+names, email and phone are shown on this page.</font></p><ol>
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Downloads
+	Presenters(PDF):</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">In
+this PDF showing all presenters husband and wife name, email, phone,
+image, home address.</font></p><ol start="2">
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Copy
+	Email:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">In
+this feature, copy all the presenter(husband and wife) email.</font></p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Edit/Update
+	Presenter:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">Presenter
+information can edit or update in this feature.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Peoples
+- Host</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">Host
+is who can host the weekend retreats.Host’s family names, husband
+and wife names, email and phone are shown on this page.</font></p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Downloads
+	Presenters(PDF):</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">In
+this PDF showing all hosts husband and wife name, email, phone,
+image, home address.</font></p><ol start="5">
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Copy
+	Email:</b></font></p>
+</li></ol><p style="margin-left: 0.5in; text-indent: 0.5in; margin-bottom: 0in; line-height: 115%">
+<font face="Roboto, serif">In this feature copy all Host(husband and
+wife) email.</font></p><ol start="6">
+	<li>
+<p style="margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif"><b>Edit/Update
+	Host:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 115%"><font face="Roboto, serif">Host’s
+information can be edited or updated in this feature.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Location</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">Community
+all locations showing in this page. Weekend retreat programs use this
+location for weddings. Admin can create these locations with name,
+Details address, price, check in time, google map.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Reports</b></font></font></font></p><p style="margin-bottom: 0in"><br>
+
+</p><ol>
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Liabilities:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">This
+page shows the total number of couples which are registered for
+future weekend, weekend location and total amount per weekend. Total
+registered amount for all weekend.</font></p><ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Income:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">This
+page shows the community all registration income.</font></p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Current
+	Year Weekends PDF:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">This
+pdf shows the current year all weekends, locations, presenters and
+priests.</font></p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Upcoming
+	Weekends PDF:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">This
+PDF shows upcoming weeknds for this community.</font></p><p align="center" style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%; background: #3c78d8">
+<font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Finance
+</b></font></font></font>
+</p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Receipts:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">If
+needed, weekend wise receipts can be created on this page.</font></p><ol start="2">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Donations:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">All
+donations information shown in this page with IPN information.</font></p><ol start="3">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarships:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+to send scholarships registration link. All scholarships request
+showing in this page. Admin can complete any registration request and
+after complete this registration status showing as manual.</font></p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Payment
+	Method:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">This
+page shows all payment methods which are used in this community.</font></p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>Enrichments</b></font></font></font></p><p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%"><font face="Roboto, serif">Here
+showing all enrichment email templates and enrichment sending
+settings options. Here to set any enrichment mail sent to couples
+Before/After Weekends and Before/After weeding.Here also has a
+checking option who gets this mail.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>More
+- Settings</b></font></font></font></p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif">Community name settings.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Contact
+	person name, phone settings.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">System
+	time zone settings.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">System
+	language settings.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Payment
+	settings.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>SMTP
+	Settings For:</b></font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Google
+		API.</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Gmail.</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Outlook.</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Office365.</font></p>
+		</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Other</font></p>
+	</li></ol>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Default
+	Certificate showing setting.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif">Default
+	Name Tag showing setting.</font></p>
+	</li><li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Email
+	Template:</b></font></p>
+	<ol>
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarship
+		Offer Email:</b></font></p>
+	</li></ol>
+</li></ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received by couples when he/she gets a scholarship offer.</font></p><ol>
+	<ol start="2">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarship
+		Request To Priest/Parish Email:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">When
+any couples register then priests get this email.</font></p><ol>
+	<ol start="3">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Link
+		To Approve Scholarship Email:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received by priests with approval live. Priests check
+registered information and priests can accept/decline.</font></p><ol>
+	<ol start="4">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarship
+		Approval Email To Couples:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received by couples when priests accept scholarships.</font></p><ol>
+	<ol start="5">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarship
+		</b></font><font face="Roboto, serif"><b>Denial</b></font><font face="Roboto, serif"><b>
+		Email To Couples:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received by couples when priests decline scholarships.</font></p><ol>
+	<ol start="6">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Scholarship
+		Approval Notice To Registration User:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received by priests for approving Registration.</font></p><ol>
+	<ol start="7">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Confirmation
+		Letter Message:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received couples and who do payment after payment completion.</font></p><ol>
+	<ol start="8">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Refund
+		Letter Message:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received couples and payment email when refunded any payment.</font></p><p style="margin-left: 1.5in; margin-bottom: 0in"><br>
+
+</p><p style="margin-left: 1.5in; margin-bottom: 0in"><br>
+
+</p><ol>
+	<ol start="9">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Weekend
+		Instructions:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+email received couples when the community admin set which day’s
+before get this mail.</font></p><ol>
+	<ol start="10">
+		<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Weekend
+		Cover Page Text:</b></font></p>
+	</li></ol>
+</ol><p style="margin-left: 1.5in; margin-bottom: 0in"><font face="Roboto, serif">This
+template text showing weekend cover inside pdf.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p align="center" style="margin-bottom: 0in; background: #3c78d8"><font color="#ffffff"><font face="Roboto, serif"><font size="4" style="font-size: 14pt"><b>More</b></font></font></font></p><ol>
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Features:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0.14in; line-height: 100%">
+<font face="Roboto, serif">Here showing all new features with
+details.</font></p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><ol start="2">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Special Invitations:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">All
+special invitations are listed on this page. Who gets the special
+invitation from which weekend that is listed on this page. Admin can
+send a special invitation on this page.</font></p><p style="margin-bottom: 0in; border: 1.50pt solid #000000; padding: 0in">
+</p><ol start="3">
+	<li>
+<p style="margin-top: 0.14in; margin-bottom: 0in; line-height: 100%">
+	<font face="Roboto, serif"><b>Delete Registrations: </b></font>
+	</p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Here
+showing all deleted registration admin undeleted any registration via
+Undeleted button.</font></p><ol start="4">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Expense
+	Details:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Community
+all expenses showing in this page.</font></p><ol start="5">
+	<li>
+<p style="margin-bottom: 0in"><font face="Roboto, serif"><b>Parishes:</b></font></p>
+</li></ol><p style="margin-left: 1in; margin-bottom: 0in"><font face="Roboto, serif">Community
+all parish locations showing in this page. Admin can create any
+parish and can update parishes information.</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><font face="Roboto, serif">
+	
+	
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115% }
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</font></p><p align="center" style="margin-bottom: 0in"><br>
+
+</p>
+</li></ol>
