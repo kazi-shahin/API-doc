@@ -1,83 +1,2327 @@
-<p><b><span style="font-size: 18px;">Communities</span></b></p><p>Feature: View Communities
+<h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto">
+<font size="5" style="font-size: 17pt"><b>Super Admin</b></font></h2><ul>
+	<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/summary"><font color="#1155cc">Summary</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/communities"><font color="#1155cc">Communities</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/users"><font color="#1155cc">Users</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/error_logs"><font color="#1155cc">Error
+	Logs</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/bug_reports"><font color="#1155cc">Bug
+	Reports</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/ipn_information"><font color="#1155cc">IPN
+	Information</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/ipn_access"><font color="#1155cc">IPN
+	Access</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/settings"><font color="#1155cc">Settings</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/features"><font color="#1155cc">Features</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="https://ceeweekend.org/docs/1.0/super_admin/download_plugin"><font color="#1155cc">Download
+	Plugin</font></a></p>
+</li></ul><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_646rwqwgmx4p"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_qfn5jrbbf6st"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_7abiakod36zt"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_h6ivw4spyop7"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_mv2kxwju648w"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_xa9u1fcqagvt"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_x4byasyrpfnc"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_s7xj7jnr8g6t"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_ugitteetgkxv"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_97km6px0v1o6"></a>
+<br>
+<br>
+
+</h2><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_97uc319shqa9"></a>
+<font size="5" style="font-size: 17pt"><b>Summary</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Summary</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/super_admin.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the summery of system. It will
+show the number of community, number of current registration, number
+of pending registrations, number of schedule, number of location,
+number of priest, number of presenters and number of receipt</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"><br>
+
+</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_ep77iiutg6sy"></a>
+<font size="5" style="font-size: 17pt"><b>Communities</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Communities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/community.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of communities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search Communities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /community?search_string=test</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/community.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will search the list of communities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New Community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /create_community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: createCommunity</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/create_community.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will create new community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /edit_community/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: communityDetails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/community_details.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will view the details of a community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Active/Inactive Community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /update_community_status</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateCommunityStatus</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will view the details of a community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Access Community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /access?token=MQ==</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: HomeController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: access</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will give super admin an option to access a
+community dashboard</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"><br>
+
+</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_p4fak0939la2"></a>
+<font size="5" style="font-size: 17pt"><b>Users</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /community_user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: adminCommuntyUserList</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/community_user.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will all the users of superadmin and
+application admin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /community_user?search_string=Kazi</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: adminCommuntyUserList</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/community_user.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will search the users of superadmin and
+application admin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /create_community_user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: adminCommuntyUserCreate</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/create_community_user.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to create new user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /edit_community_user/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: adminCommuntyUserEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/community/edit_community_user.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to edit and update user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /delete_community_user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: deleteCommunityUser</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to delete a user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_as5dz2fwb4gk"></a>
+<font size="5" style="font-size: 17pt"><b>Error Logs</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Error Logs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /error-logs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: errorLogs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/error_logs.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show and manage all the error log of
+the system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search and Filter Error Logs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /error-logs?select_filter=Undefined+index&amp;type=1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: errorLogs</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/error_logs.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will filter error log with resolved and
+unresolved option</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_7ken1ztsy187"></a>
+<font size="5" style="font-size: 17pt"><b>Bug Reports</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Bug report List</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /bug_reports</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: bugReports</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/bug_reports.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the bug reports created by
+superadmin and communities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New Bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /create_report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: createReport</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: bug_report/create_report.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will create new bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Update Bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /update_report/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: editReport</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: bug_report/edit_report.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will update bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /bug_reports/delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: bugReportsDelete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will delete a bug report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_jmhm9src85kf"></a>
+<font size="5" style="font-size: 17pt"><b>IPN Information</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View IPN Information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnInformation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/ipn_information.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list and details of all the
+paypal payment transaction</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search IPN Information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_information?search_string=4E49587206167472A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnInformation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/ipn_information.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will search the list and details of all the
+paypal payment transaction</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete IPN Information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_information/delete/{id}</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnInformationDelete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will delete details of all the ipn
+information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Resolve/Unresolve IPN Information</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_information/toggle-resolve/{id}</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ipnInformationResolveToggle</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnInformationDelete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will make the ipn resolve or unresolve</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_86fjjjevtujf"></a>
+<font size="5" style="font-size: 17pt"><b>IPN Access</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View IPN Access</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_access</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnAccess</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/ipn_access.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the status of all the IPN access
+from PayPal</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search IPN Access</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /ipn_access?search_string=4E49587206167472A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: ipnAccess</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/ipn_access.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will search the details the IPN access from
+PayPal</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_fxv1yi7osse5"></a>
+<font size="5" style="font-size: 17pt"><b>Settings</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/settings.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the settings options for
+community admin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Update Settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /settings/update</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateSettings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to preset some
+configuration option for community admin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_9jiak0791xfh"></a>
+<font size="5" style="font-size: 17pt"><b>Features</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: feature</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/feature_update/update.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list all the new and updated
+features of the system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: New update can be emailed to community admins</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /create-feature</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: createFeature</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/feature_update/create_update.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to create new feature of
+the system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /edit-feature/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: editFeature</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: superadmin/feature_update/edit_update.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to update feature of the
+system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Active/Inactive Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /update_feature_status</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateFeatureStatus</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to make feature active or
+inactive</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /update_feature_status</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateFeatureStatus</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to delete a feature</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Features Release Email To Community Users</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /send_feature_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: AdminController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendFeatureEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to send feature release
+emails to community admin user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_gs9wgioysbnr"></a>
+<font size="5" style="font-size: 17pt"><b>Download Plugin</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Plugin for Single Site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /download-plugin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPlugin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow superadmin to download community
+plugin for single site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Plugin for Multi Site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /download-plugin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPluginMultisite</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow superadmin to download community
+plugin for multiple site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_io6kibavw5fg"></a>
+<font size="5" style="font-size: 17pt"><b>Community</b></font></h2><ul>
+	<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/home"><font color="#1155cc">Home</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/registrations"><font color="#1155cc">Registrations</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/schedules"><font color="#1155cc">Schedules</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/people"><font color="#1155cc">People</font></a></p>
+	<ul>
+		<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/users"><font color="#1155cc">Users</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/priests"><font color="#1155cc">Priests</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/presenters"><font color="#1155cc">Presenters</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/hosts"><font color="#1155cc">Hosts</font></a></p>
+	</li></ul>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/locations"><font color="#1155cc">Locations</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/reports"><font color="#1155cc">Reports</font></a></p>
+	<ul>
+		<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/liabilities"><font color="#1155cc">Liabilities</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/monthly_income"><font color="#1155cc">Monthly
+		Income</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/year_weekends_pdf"><font color="#1155cc">Year
+		Weekends (PDF)</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/reports"><font color="#1155cc">Upcoming
+		Weekends (PDF)</font></a></p>
+	</li></ul>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/finance"><font color="#1155cc">Finance</font></a></p>
+	<ul>
+		<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/receipts"><font color="#1155cc">Receipts</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/donations"><font color="#1155cc">Donations</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/scholarships"><font color="#1155cc">Scholarships</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/payment_method"><font color="#1155cc">Payment
+		Method</font></a></p>
+	</li></ul>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/enrichments"><font color="#1155cc">Enrichments</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/community_resources"><font color="#1155cc">Community
+	Resources</font></a></p>
+	</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/more"><font color="#1155cc">More</font></a></p>
+	<ul>
+		<li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/settings"><font color="#1155cc">Settings</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/features"><font color="#1155cc">Features</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/special_invitations"><font color="#1155cc">Special
+		Invitations</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/deleted_registrations"><font color="#1155cc">Deleted
+		Registrtions</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/expense_details"><font color="#1155cc">Expense
+		Details</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/parishes"><font color="#1155cc">Parishes</font></a></p>
+		</li><li>
+<p style="margin-bottom: 0in; border: none; padding: 0in"><a href="http://127.0.0.1:8000/docs/1.0/community/download_plugin"><font color="#1155cc">Download
+		Plugin</font></a></p>
+	</li></ul>
+</li></ul><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_86w3hw9i0dsh"></a>
+<font size="5" style="font-size: 17pt"><b>Home</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Home</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/home</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: HomeController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: home</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: home.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the summery of the community
+dashboard.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search Registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration?search_string=test</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all the registration
+of the community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_o31bgcnfqoni"></a>
+<font size="5" style="font-size: 17pt"><b>Registration</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all the registration
+of the community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Search Registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration?search_string=test</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all the registration
+of the community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Filter Registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration?search_string=&amp;status=Pending</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all the registration
+of the community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View certificate pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route:
+<a href="http://127.0.0.1:8001/admin/schedule-basic-certificate-signature/123"><font color="#1155cc">http://127.0.0.1:8001/admin/schedule-basic-certificate-signature/123</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: scheduleCertificate</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedules/certificate.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the pdf certificate of the
+schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View confirmation letter pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/confirmation-letter-pdf/123"><font color="#1155cc">http://127.0.0.1:8001/admin/confirmation-letter-pdf/123</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: confirmationLetter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/confirmation-letter.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the confirmation letter as pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Note</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/create.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to manually
+create new registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: This registration will not send payment by paypal</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to edit and
+update registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Resend Confirmation Email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/resend_payment_confirmation_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: resendPaymentConfirmationEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will re send the payment confirmation email
+to the registrants</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Weekend Instruction</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/send_weekend_instructions_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendWeekendInstructionsEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will send the weekend instruction email to
+the registrants if applicable.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_8wo37w1qol2m"></a>
+<font size="5" style="font-size: 17pt"><b>Schedule</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedule/sch-view</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all the schedule of
+the community.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New Schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedule/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to create new
+schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Multiple Schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule/multi_create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: MultiCreate</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedule/multi_create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to create
+multiple schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Schedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule/1263/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedule/show-edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to update
+schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Scholarship/Special Invite</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule/send_invitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendInvitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to send special registration
+invitation.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Report/Roater with cover</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule-weekend-cover-report/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: weekendRosterCover</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the report of weekend rosters
+with cover.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Report/Room with cover</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule-room-assignment-cover/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: roomAssignmentCover</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the report of room assignments
+with cover.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Certificates</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/render-certificate-pdf/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: renderCertificatePdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the selected certificate.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note: Default selected certificate will be shown here. Default
+certificate can be set from settings</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Schedule as CSV</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule-download-excel/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: excelSchedule</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the schedule with registration
+details as csv.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Basic Name Tags</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/basic-name-tag/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: scheduleBasicNameTag</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the basic name tags of the
+registrants of the schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Color Name Tags</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/color-name-tag/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: scheduleColorNameTag</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the color name tags of the
+registrants of the schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/send_schedule_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendScheduleEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to send schedule email to all
+the registrants.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Weekend Instruction Email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/send_registrants_weekend_instructions_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendRegistrantsWeekendInstructionsEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to send weekend instruction
+email to all the registrants.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Couples</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/registration/123"><font color="#1155cc">http://127.0.0.1:8001/admin/registration/123</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/reg-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of registration of the
+schedule.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_rmjr4ec3aduu"></a>
+<font size="5" style="font-size: 17pt"><b>Users</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/users</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: UserController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: users</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: users/users-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will view all the users list of this
+community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/users/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: UserController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: users/create.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to create new user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit User</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/users/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: UserController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: adminCommuntyUserEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: users/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow admin to edit and update user</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Invite to Set Password</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/users/reset_password_invite/123</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: UserController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: resetPasswordInvitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will send an email to community user with a
+password reset link. User can reset their passwrd from that link.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_balsj24drphq"></a>
+<font size="5" style="font-size: 17pt"><b>Priests</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: priests</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: priests/priest-list.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the priest list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Priest PDF</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests/download-pdf-file</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPriestPdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: priests/priest-list-pdf.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will download all priest as pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Copy Emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will copy all the priest emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create New Priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: priests/create.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests/90/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: priests/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to update priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/priests/delete/123</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PriestController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to delete a priest</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_c7glatsyfodq"></a>
+<font size="5" style="font-size: 17pt"><b>Presenters</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Presenter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/presenters</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: presenters</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/presenters-view.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the presenter list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Presenter PDF</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/presenters/download-pdf-file"><font color="#1155cc">http://127.0.0.1:8001/admin/presenters/download-pdf-file</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPresenterPdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/presenter-list-pdf.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will download all the presenters as pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Copy Emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/presenters</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will copy all the presenter emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Presenter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/presenters/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/create.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to create new
+presenter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Presenter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/presenters/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/edit.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community admin to update
+presenter</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_2djlnrrh8grh"></a>
+<font size="5" style="font-size: 17pt"><b>Hosts</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View host</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/hosts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: hosts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/host-view.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature the presenter list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Host PDF</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/hosts/download-pdf-file"><font color="#1155cc">http://127.0.0.1:8001/admin/hosts/download-pdf-file</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadHostPdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/host-list-pdf.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will download all the hosts as pdf</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Copy Emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/hosts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will copy all the host emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create host</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/hosts/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: createHost</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/host_create.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature allow to create new host</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit host</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/hosts/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PresentersController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: hostEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: presenters/host_edit.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature allow to update host</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_m4ux891zfgth"></a>
+<font size="5" style="font-size: 17pt"><b>Location</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LocationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: location/location-view.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the location list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/location/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LocationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: location/create.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/location/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LocationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: location/edit.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Test Weekend Email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/location/123/test_weekend_email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LocationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: testWeekendEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will send a test email with weekend
+information for the location</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_t8h036aml64c"></a>
+<font size="5" style="font-size: 17pt"><b>Liabilities</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Liabilities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/liabilities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LiabilitiesController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: liabilities</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/liabilities/liabilities.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the liabilities report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Downloas CSV</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/liabilities-csv"><font color="#1155cc">http://127.0.0.1:8001/admin/liabilities-csv</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LiabilitiesController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: liabilitiesCsv</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will download the liabilities report as csv</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Print Report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/liabilities"><font color="#1155cc">http://127.0.0.1:8001/admin/liabilities</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: LiabilitiesController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will print the liabilities report. There is
+no controller method for this. It's using jquery function inside the
+view file.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_o93qjg6alm32"></a>
+<font size="5" style="font-size: 17pt"><b>Monthly Income</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Income</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/income</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReportController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: incomeReport</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: report/onthly_report.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the monthly income report</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Income Download as CSV</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/income-csv</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReportController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: incomeCsv</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will download the monthly income report as
+csv</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Income Print</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/income</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReportController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will print the monthly income report. There
+is no controller method for this. It's using jquery function inside
+the view file.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_14cal0z6n409"></a>
+<font size="5" style="font-size: 17pt"><b>Current year weekend PDF</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Current year Weekend PDF</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/schedule_weekdays/2020-01-01/2020-12-31</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: scheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: weekendRoster</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: schedule/weekend-roster-pdf.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the pdf report of weekend roster</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_hvnblwpheuoe"></a>
+<font size="5" style="font-size: 17pt"><b>Receipts</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Receipts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/receipts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReceiptController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: receipts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: receipts/receipts-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of receipt</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Receipts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/receipts/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReceiptController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: receipts/create.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new receipt</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Receipts</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/receipts/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ReceiptController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: receipts/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update receipt</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 100%; page-break-inside: auto; page-break-after: auto"><a name="_919biffwtuf"></a>
+<font size="5" style="font-size: 17pt"><b>Donations</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Donations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/donations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: DonationtController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/donation/donation-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of all donations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Donations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/donations/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: DonationtController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/donation/donation-edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit donations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+<br>
+
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%; page-break-before: always">
+<font size="5" style="font-size: 18pt">Scholarships</font></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Scholarships</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/scholarships</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScholarshipController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: scholarship</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: scholarship/scholarship.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of scholarship request</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Scholarships</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/scholarships/1/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScholarshipController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: scholarship/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update scholarship</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Scholarship Invitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/send_scholarship_invitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScholarshipController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendInvitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to send scholarship invitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Send Scholarship Payment Link</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /send_scholarship_payment_link</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PublicController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: sendScholarshipPaymentLink</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will send user a scholarship payment link.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Mark as Paid</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/registration/update_status</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: RegistrationController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateStatus</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will payment status of this scholarship
+registration as Completed.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Scholarships</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/scholarships/delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScholarshipController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to delete the scholarship</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+<br>
+
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+<br>
+
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+<font size="5" style="font-size: 18pt">Payment Method</font></p><p style="margin-bottom: 0in"><br>
+
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Payment Method</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/payment</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PaymentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/payment_list.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the payment method list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Payment Method</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PaymentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/create_payment.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new payment method</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in"></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Payment Method</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/edit/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PaymentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/edit_payment.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update payment
+method</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_1r2pf2aguf8e"></a>
+<font size="5" style="font-size: 17pt"><b>Enrichments</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Enrichments</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/enrichment</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: EnrichmentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: enrichment</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/enrichment/enrichment-view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the enrichments list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Enrichments</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/enrichment/123/edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: EnrichmentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: showEdit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/enrichment/edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will edit and update the enrichments list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Enrichments</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/enrichment/delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: EnrichmentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will delete the enrichments list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Enrichments Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/enrichment/get_enrichment_registrants</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: EnrichmentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: enrichmentRegistrants</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will get all the registration of the
+enrichments of a certain date range</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Test Enrichments Email</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/enrichment/test_enrichment_emails</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: EnrichmentController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: testEnrichmentEmail</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will test the enrichment by sending a test
+email.</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_29sxwmn7h9sw"></a>
+<font size="5" style="font-size: 17pt"><b>Community Resources</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Community Resources List</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/community_resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: CommunityResourceController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/community_resources/community_resource_list.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of community resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Community Resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/community_resource/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: CommunityResourceController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/community_resources/create_community_resource.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create community resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Community Resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/community_resource/edit/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: CommunityResourceController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/community_resources/edit_community_resource.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update community
+resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_cu8ne378sxfg"></a>
+<font size="5" style="font-size: 17pt"><b>Settings</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingsController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/setting/settings.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community user to save some pre
+configurable information of the system</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Update Settings</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/settings/123/update</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingsController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: update</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will update the setting configuration of a
+community</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_b3vbuxoy6a8e"></a>
+<font size="5" style="font-size: 17pt"><b>Features</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/features</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: FeatureController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: updateHistory</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/feature/feature_list.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show community user the list of new,
+updated, enhanced feature list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_cnppah8j2j08"></a>
+<font size="5" style="font-size: 17pt"><b>Special Invitations</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Special Invitations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/special_invitations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: specialInvitations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/special_invitations.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of special registration
+request</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Special Invitations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/special_invitations/621/edit"><font color="#1155cc">http://127.0.0.1:8001/admin/special_invitations/621/edit</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: editSpecialInvitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: registrations/special_invitation_edit.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update special
+registration request</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Special Invitations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: <a href="http://127.0.0.1:8001/admin/special_invitations/delete"><font color="#1155cc">http://127.0.0.1:8001/admin/special_invitations/delete</font></a></p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ScheduleController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: deleteSpecialInvitation</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to delete a special registration
+request</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_tkmr7mn9luha"></a>
+<font size="5" style="font-size: 17pt"><b>Deleted Registrations</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Deleted Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/deleted/registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PendingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: deleted</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: deleted registration/view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the deleted registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Restore Deleted Registrations</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/deleted/restore/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PendingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: restore</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow user to restore a deleted
+registration</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_3l7b8af6c79y"></a>
+<font size="5" style="font-size: 17pt"><b>Expense Details</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/expense</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PendingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/expense_list.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show the list of expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/expense/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PendingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/create_expense.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/expense/edit/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: PendingController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: expense/edit_expense.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to update expenses</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_i20ce9qy8s26"></a>
+<font size="5" style="font-size: 17pt"><b>Parishes</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: View Parishes</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/parish_resources</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ParishController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: index</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/parish/parish_resource_view.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will show all the parish resource list</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Create Parishes</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/parish_resources/create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ParishController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: create</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/parish/create_parish_resource.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to create new parish resource</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Edit Parishes</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/parish_resources/edit/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ParishController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: edit</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: more/parish/edit_parish_resource.blade.php</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to edit and update parish
+resource</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Delete Parishes</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/parish_resources/delete/123</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: ParishController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: delete</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow to delete parish resource</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><h2 class="western" style="margin-bottom: 0.06in; border: none; padding: 0in; line-height: 200%; page-break-inside: auto; page-break-after: auto"><a name="_87jj4athu0sv"></a>
+<font size="5" style="font-size: 17pt"><b>Download Plugin</b></font></h2><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Plugin Single Site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/download_plugin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingsController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPlugin</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community user to download
+community plugin for single site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Feature: Download Plugin Multiple Site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Route: /admin/parish_resources/edit/1</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Controller: SettingsController</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Function: downloadPluginMultisite</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+View: N/A</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Description: This feature will allow community user to download
+community plugin for multiple site</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+Note:</p><p style="margin-bottom: 0in; border: none; padding: 0in; line-height: 200%">
+<br>
+
+</p><p style="margin-bottom: 0in"><br>
+
 </p><p>
-Route: /community
+	
+	
+	<style type="text/css">
+		@page { margin: 0.79in }
+		h2 { margin-top: 0.25in; direction: ltr; line-height: 100%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2 }
+		h2.western { font-family: "Arial", serif; font-size: 16pt; font-weight: normal }
+		h2.cjk { font-family: "Arial"; font-size: 16pt; font-weight: normal }
+		h2.ctl { font-family: "Arial"; font-size: 16pt; font-weight: normal }
+		p { margin-bottom: 0.1in; line-height: 115% }
+		a:link { so-language: zxx }
+	</style>
 
-Controller: AdminController
 
-Function: community
 
-View: superadmin/community/community.blade.php
 
-Description: This feature will show the list of communities
 
-Note:
 
-Feature: Search Communities
 
-Route: /community?search_string=test
 
-Controller: AdminController
 
-Function: community
 
-View: superadmin/community/community.blade.php
 
-Description: This feature will search the list of communities
 
-Note:
 
-Feature: Create New Community
 
-Route: /create_community
 
-Controller: AdminController
 
-Function: createCommunity
 
-View: superadmin/community/create_community.blade.php
 
-Description: This feature will create new community
 
-Note:
 
-Feature: Edit Community
 
-Route: /edit_community/1
 
-Controller: AdminController
 
-Function: communityDetails
 
-View: superadmin/community/community_details.blade.php
 
-Description: This feature will view the details of a community
 
-Note:
 
-Feature: Active/Inactive Community
 
-Route: /update_community_status
 
-Controller: AdminController
 
-Function: updateCommunityStatus
 
-View: N/A
 
-Description: This feature will view the details of a community
 
-Note:
 
-Feature: Access Community
 
-Route: /access?token=MQ==
 
-Controller: HomeController
 
-Function: access
 
-View: N/A
 
-Description: This feature will give super admin an option to access a community dashboard
 
-Note:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p style="margin-bottom: 0in"><br>
+
+</p>
